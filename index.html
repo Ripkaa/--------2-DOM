@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DHTML Задания</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <section>
+        <h3>Задание 1: Изменение картинки по URL</h3>
+        <input type="text" id="imageUrlInput" placeholder="Введите URL картинки">
+        <button id="changeImageButton">Изменить картинку</button>
+        <br>
+        <img id="image" src="https://lastfm.freetls.fastly.net/i/u/ar0/60790c053de5073355970ae52a64ec95.png" alt="Здесь будет ваша картинка" style="margin-top: 10px; width: 20%;">
+    </section>
+
+    <section>
+        <h3>Задание 2: Изменение текста на кнопке при наведении</h3>
+        <button id="hoverButton">Наведи на меня!</button>
+    </section>
+
+    <section>
+        <h3>Задание 3: Изменение цвета текста и фона абзаца</h3>
+        <input type="text" id="textColorInput" placeholder="Цвет текста (например, red)">
+        <input type="text" id="bgColorInput" placeholder="Цвет фона (например, yellow)">
+        <button id="changeColorButton">Применить цвета</button>
+        <p id="coloredParagraph">Этот абзац будет изменен.</p>
+    </section>
+
+    <section>
+        <h3>Задание 4: Изменение рамки таблицы</h3>
+        <input type="text" id="borderWidthInput" placeholder="Толщина рамки (например, 2px)">
+        <input type="text" id="borderColorInput" placeholder="Цвет рамки (например, blue)">
+        <button id="changeBorderButton">Изменить рамку таблицы</button>
+        <br>
+        <table style="margin-top: 10px;">
+            <tr>
+                <td>Ячейка 1</td>
+                <td>Ячейка 2</td>
+            </tr>
+            <tr>
+                <td>Ячейка 3</td>
+                <td>Ячейка 4</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h3>Задание 5: Сумма чисел</h3>
+        <input type="number" id="num1" placeholder="Число 1">
+        <input type="number" id="num2" placeholder="Число 2">
+        <button id="calculateButton">Посчитать</button>
+        <span id="result">Результат</span>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
